@@ -15,6 +15,7 @@
 		EF000C0123B0589E00CE4DAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF000C0023B0589E00CE4DAF /* main.m */; };
 		EF000C0B23B0589E00CE4DAF /* PreventScreenShotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF000C0A23B0589E00CE4DAF /* PreventScreenShotTests.m */; };
 		EF000C1623B0589E00CE4DAF /* PreventScreenShotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF000C1523B0589E00CE4DAF /* PreventScreenShotUITests.m */; };
+		EF000C2623B05A1C00CE4DAF /* PreventScreentShotService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF000C2523B05A1C00CE4DAF /* PreventScreentShotService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EF000C1123B0589E00CE4DAF /* PreventScreenShotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreventScreenShotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF000C1523B0589E00CE4DAF /* PreventScreenShotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreventScreenShotUITests.m; sourceTree = "<group>"; };
 		EF000C1723B0589E00CE4DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF000C2423B05A1C00CE4DAF /* PreventScreentShotService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreventScreentShotService.h; sourceTree = "<group>"; };
+		EF000C2523B05A1C00CE4DAF /* PreventScreentShotService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreventScreentShotService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		EF000BF023B0589D00CE4DAF /* PreventScreenShot */ = {
 			isa = PBXGroup;
 			children = (
+				EF000C2323B059F600CE4DAF /* ScreenShotService */,
 				EF000BF123B0589D00CE4DAF /* AppDelegate.h */,
 				EF000BF223B0589D00CE4DAF /* AppDelegate.m */,
 				EF000BF423B0589D00CE4DAF /* ViewController.h */,
@@ -130,6 +134,15 @@
 				EF000C1723B0589E00CE4DAF /* Info.plist */,
 			);
 			path = PreventScreenShotUITests;
+			sourceTree = "<group>";
+		};
+		EF000C2323B059F600CE4DAF /* ScreenShotService */ = {
+			isa = PBXGroup;
+			children = (
+				EF000C2423B05A1C00CE4DAF /* PreventScreentShotService.h */,
+				EF000C2523B05A1C00CE4DAF /* PreventScreentShotService.m */,
+			);
+			path = ScreenShotService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF000BF623B0589D00CE4DAF /* ViewController.m in Sources */,
+				EF000C2623B05A1C00CE4DAF /* PreventScreentShotService.m in Sources */,
 				EF000C0123B0589E00CE4DAF /* main.m in Sources */,
 				EF000BF323B0589D00CE4DAF /* AppDelegate.m in Sources */,
 			);
